@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color: #e7ecec;
+}
+
+/* Navigation Section  */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+
+    margin: 0 30px;
+    font-weight: 800;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #757070;
+}
+
+.logo {
+    width: 90px;
+}
+
+/* Main Section  */
+.main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Left Section  */
+.main_left {
+    position: relative;
+    top: 150px;
+    left: 5%;
+    height: 100%;
+    width: 100vh;
+}
+
+.main_left h1 {
+    font-size: 45px;
+}
+
+.main_left p {
+    padding: 20px 0 10px 0;
+    font-size: 13px;
+    color: #858080;
+    text-shadow: 0px 1px 1px #837d7d;
+}
+
+button {
+    padding: 10px;
+    width: 14vw;
+    border-radius: 20px;
+    font-weight: 800;
+    background-color: #22bc7e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #5ed3a4;
+}
+
+.topAngle {
+    width: 16px;
+}
+.bottomangle {
+    position: relative;
+    left: 260px;
+    bottom: 12px;
+    width: 16px;
+}
+
+.mouse {
+    position: relative;
+    width: 20px;
+    left: 275px;
+    top: 8px;
+}
+
+/* Main Right Section  */
+.main_right {
+    width: 30%;
+    height: 100%;
+}
+
+.green {
+    position: absolute;
+    width: 28%;
+    top: 240px;
+    right: 1px;
+    z-index: 0;
+}
+
+.yellow {
+    position: absolute;
+    width: 23%;
+    top: 300px;
+    right: 1px;
+    z-index: 1;
+}
+.doctor {
+    position: absolute;
+    width: 30vw;
+    bottom: 1px;
+    right: 1px;
+    z-index: 2;
+}
+
+.stethoscope {
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    left: 400px;
+}
